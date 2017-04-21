@@ -1,10 +1,6 @@
 # demo
-
-<<<<<<< HEAD
 > 例子
-=======
 按照如下命令运行即可，具体步骤请参考[我的博客](http://www.cnblogs.com/star-wind/)
->>>>>>> b09948c296c7ff0afbe616ddbf8378f76cb6456e
 
 ## Build Setup
 
