@@ -1,6 +1,5 @@
 <template>
   <div id="app">
-    <p>index页面</p>
     <router-view></router-view>
   </div>
 </template>
@@ -11,13 +10,41 @@ export default {
 }
 </script>
 
-<style>
+<style lang="less">
+  @base: 37.5rem;
+  @multiple: 2;
+  @borderColorBottom: #f2f2f2;
   #app {
-    font-family: 'Avenir', Helvetica, Arial, sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
     text-align: center;
     color: #2c3e50;
-    margin-top: 60px;
+  }
+  a{
+    text-decoration: none;
+  }
+  header {
+    display: -webkit-flex;
+    display: flex;
+    line-height: 48/@base;
+    border-bottom: 1px solid @borderColorBottom;
+  > a {
+      width: 7%;
+      font-size: 20px;
+      text-align: center;
+    }
+  img {
+    width: 100%;
+    vertical-align: middle;
+  }
+  div:nth-child(1) {
+    width: auto;
+  }
+  div:nth-child(2) {
+    width: 90%;
+    text-align: center;
+  }
+  div:nth-child(3) {
+    width: 5%;
+    text-align: right;
+  }
   }
 </style>
