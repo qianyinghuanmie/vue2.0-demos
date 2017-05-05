@@ -1,5 +1,7 @@
 # demo
 > 例子
+将页面公共头部提取为组件(更新于2017-5-5)
+
 按照如下命令运行即可，具体步骤请参考[我的博客](http://www.cnblogs.com/star-wind/)
 
 ## Build Setup
