@@ -1,0 +1,23 @@
+
+@font-face {font-family: "iconfont";
+  src: url('../../../static/font/iconfont.eot?t=1493881656793'); /* IE9*/
+  src: url('../../../static/font/iconfont.eot?t=1493881656793#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('../../../static/font/iconfont.woff?t=1493881656793') format('woff'), /* chrome, firefox */
+  url('../../../static/font/iconfont.ttf?t=1493881656793') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('../../../static/font/iconfont.svg?t=1493881656793#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family:"iconfont" !important;
+  font-size:24px;
+  color: #cdcdcd;
+  font-weight:bold ;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-back:before { content: "\e697"; }
+
+.icon-more:before { content: "\e6a7"; }
+
