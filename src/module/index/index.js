@@ -3,8 +3,11 @@
 import Vue from 'vue'
 import App from './App'
 import VueRouter from 'vue-router'
+import VueResource from 'vue-resource'
 import './iconfont.css'
+
 Vue.config.productionTip = false
+Vue.use(VueResource)
 Vue.use(VueRouter)
 const routes = [{
   path: '/',
@@ -21,7 +24,13 @@ const routes = [{
   component: function (resolve) {
     require(['../../components/demo2.vue'], resolve)
   }
-}]
+}, {
+  path: '/city',
+  component: function (resolve) {
+    require(['../../components/city.vue'], resolve)
+  }
+}
+]
 const router = new VueRouter({
   routes
 })

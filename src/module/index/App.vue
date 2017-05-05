@@ -15,8 +15,9 @@ export default {
   @multiple: 2;
   @borderColorBottom: #f2f2f2;
   #app {
-    text-align: center;
-    color: #2c3e50;
+    padding-top: 80/@base;
+/*    text-align: center;
+    color: #2c3e50; */
   }
   a{
     text-decoration: none;
@@ -24,8 +25,13 @@ export default {
   header {
     display: -webkit-flex;
     display: flex;
-    line-height: 48/@base;
+    line-height: 80/@base;
     border-bottom: 1px solid @borderColorBottom;
+    position: fixed;
+    left:0;
+    top: 0;
+    width: 100%;
+    background: #FFFFFF;
   > a {
       width: 7%;
       font-size: 20px;
