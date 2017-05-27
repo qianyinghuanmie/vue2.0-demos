@@ -16,14 +16,6 @@
     </aside>
     <div id="tip">
       {{tipString}}
-
-
-
-
-
-
-
-
     </div>
   </div>
 </template>
@@ -70,7 +62,7 @@
     methods: {
       buildLetter: function () {  // 构建字母项
         letter = []
-        for (let i = 0; i < 25; i++) {
+        for (let i = 0; i < 26; i++) {
           let obj = {}
           obj.letter = String.fromCharCode((65 + i))
           obj.citylist = []
@@ -83,12 +75,12 @@
       buildItem: function (cityNamesFilter) {  // 构建城市
         this.buildLetter()
         let _this = this
-        for (let i = 0; i < 25; i++) {
+        for (let i = 0; i < 26; i++) {
           letter[i].citylist = []
         }
         for (let i = 0; i < cityNamesFilter.length; i++) {
           let _index = Number(_this.getFirstLetter(cityNamesFilter[i]).charCodeAt() - 65)
-          if (_index > 0 && _index < 25) {
+          if (_index >= 0 && _index < 26) {
             letter[_index].citylist.push(cityNamesFilter[i])
           }
         }
