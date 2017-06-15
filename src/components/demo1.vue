@@ -16,6 +16,10 @@
       text: '跳转到城市列表'
     },
     {
+      url: '/around',
+      text: '跳转到高德地图'
+    },
+    {
       url: '/demo2',
       text: '跳转到demo2'
     }

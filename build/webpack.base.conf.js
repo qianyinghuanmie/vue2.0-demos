@@ -62,7 +62,10 @@ module.exports = {
       }
     ]
   },
-  plugins: []
+  plugins: [],
+  externals: {
+    'AMap': 'AMap'
+  }
 }
 
 /* 用于构建多页面 */
