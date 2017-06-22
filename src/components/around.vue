@@ -112,7 +112,7 @@
           self.num.push(poisArrCopy)
 //          self.listText = pois
 //          self.listCount = _result.poiList.count
-          placeSearch.M.pageSize = 10
+//          placeSearch.M.pageSize = 10
           resolve()
         })
         promise.then(function () {

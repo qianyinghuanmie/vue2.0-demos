@@ -41,7 +41,7 @@
     created: function () {
       countPage++
       if (countPage < 2) {
-        this.$http.get('/static/city.json').then(response => {
+        this.$http.get('./static/city.json').then(response => {
           // get status
           let cityList = response.body.provinces
           for (let i in cityList) {
