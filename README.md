@@ -1,9 +1,4 @@
-<style>
-  a{
-    color: orangered;
-    font-family: 微软雅黑;
-  }
-</style>
+
 <h2>说明</h2>
 <h4>将页面公共头部提取为组件(更新于2017-5-5)</h4>
 <p>主要涉及(前期准备)：</p>
