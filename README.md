@@ -1,5 +1,10 @@
-#说明<br>
-<h2>例子</h2>
+<style>
+  a{
+    color: orangered;
+    font-family: 微软雅黑;
+  }
+</style>
+<h2>说明</h2>
 <h4>将页面公共头部提取为组件(更新于2017-5-5)</h4>
 <p>主要涉及(前期准备)：</p>
 <p>
@@ -9,7 +14,7 @@
 <p>主要涉及(前期准备)</p>
 <p>1.引入高德地图api
   注意：为方便演示效果，此项目中使用了个人开发者的高德秘钥，请自行去替换成自己的。</p>
-<h4>新增[vcharts](https://github.com/ElemeFE/v-charts)(更新于2017-8-8)  </h4>
+<h4>新增 <a href="https://github.com/ElemeFE/v-charts">vcharts</a>(更新于2017-8-8)  </h4>
 
 按照如下命令运行即可，具体步骤请参考[我的博客](http://www.cnblogs.com/star-wind/)
 
