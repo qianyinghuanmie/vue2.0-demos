@@ -2,29 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e659d2f6-bf39-4403-8dd5-004cdf39cd17" name="默认的" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/templateLanguages.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/vcharts.vue" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/static/js/0.14b1ac095c6e0e8d9fad.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/static/js/0.14b1ac095c6e0e8d9fad.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/static/js/1.2e999f191a2fb01bb64b.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/static/js/1.2e999f191a2fb01bb64b.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/static/js/2.8a63a7e8788e0e982f1b.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/static/js/2.8a63a7e8788e0e982f1b.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/static/js/3.6b21328f313cd7eac961.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/static/js/3.6b21328f313cd7eac961.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/static/js/index.5f35e024b5e5019adf39.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/static/js/index.5f35e024b5e5019adf39.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/static/js/manifest.cd2526c690b65f80663c.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/static/js/manifest.cd2526c690b65f80663c.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/static/js/vendor.72bba204d1171c0c1355.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/static/js/vendor.72bba204d1171c0c1355.js.map" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/index.html" afterPath="$PROJECT_DIR$/dist/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/static/css/index.6603904d7fafdd1326697bfc5f82b8f2.css.map" afterPath="$PROJECT_DIR$/dist/static/css/index.6603904d7fafdd1326697bfc5f82b8f2.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/about.vue" afterPath="$PROJECT_DIR$/src/components/about.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/demo1.vue" afterPath="$PROJECT_DIR$/src/components/demo1.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/module/index/App.vue" afterPath="$PROJECT_DIR$/src/module/index/App.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/module/index/index.js" afterPath="$PROJECT_DIR$/src/module/index/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -49,11 +27,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dist/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="84" lean-forward="true" selection-start-line="0" selection-start-column="84" selection-end-line="0" selection-end-column="84" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="504">
+              <caret line="18" column="14" lean-forward="true" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -164,6 +152,7 @@
         <option value="$PROJECT_DIR$/src/components/demo1.vue" />
         <option value="$PROJECT_DIR$/src/module/index/App.vue" />
         <option value="$PROJECT_DIR$/src/components/vcharts.vue" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -320,17 +309,18 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1502160383364</updated>
-      <workItem from="1502160384720" duration="1504000" />
+      <workItem from="1502160384720" duration="2232000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1504000" />
+    <option name="totallyTimeSpent" value="2232000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="17" y="0" width="1924" height="1056" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -484,6 +474,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="84" lean-forward="true" selection-start-line="0" selection-start-column="84" selection-end-line="0" selection-end-column="84" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="18" column="14" lean-forward="true" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
           <folding />
         </state>
       </provider>
