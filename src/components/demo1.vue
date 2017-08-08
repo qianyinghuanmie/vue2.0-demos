@@ -20,6 +20,10 @@
       text: '跳转到高德地图'
     },
     {
+      url: '/vcharts',
+      text: '跳转到vcharts图表示例'
+    },
+    {
       url: '/demo2',
       text: '跳转到demo2'
     }

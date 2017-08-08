@@ -37,6 +37,11 @@ const routes = [{
   component: function (resolve) {
     require(['../../components/around.vue'], resolve)
   }
+}, {
+  path: '/vcharts',
+  component: function (resolve) {
+    require(['../../components/vcharts.vue'], resolve)
+  }
 }
 ]
 const router = new VueRouter({
