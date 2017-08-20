@@ -15,6 +15,7 @@
 <h3 class="myH3">关于本项目</h3>
 <p>npm install报错是pinyin引起的(但不影响正常使用)，只想使用其他demo的，可以不安装pinyin</p>
 <h3 class="myH3">改版之前</h3>
+
 ``` bash
 <h4>将页面公共头部提取为组件(更新于2017-5-5)</h4>
 <p>主要涉及(前期准备)：</p>
@@ -27,6 +28,8 @@
   注意：为方便演示效果，此项目中使用了个人开发者的高德秘钥，请自行去替换成自己的。</p>
 <h4>新增 <a href="https://github.com/ElemeFE/v-charts">vcharts</a>(更新于2017-8-8)  </h4>
 ```
+
+
 按照如下命令运行即可，具体步骤请参考[我的博客](http://www.cnblogs.com/star-wind/)
 
 ## Build Setup
