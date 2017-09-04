@@ -71,6 +71,10 @@
     {
       url: '#/vcharts',
       text: '跳转到vcharts图表示例'
+    },
+    {
+      url: '#/uploadImg',
+      text: '图片上传示例'
     }
   ]
   export default {

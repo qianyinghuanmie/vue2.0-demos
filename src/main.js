@@ -74,6 +74,11 @@ const routes = [{
   component: function (resolve) {
     require(['./views/vcharts.vue'], resolve)
   }
+}, {
+  path: '/uploadImg',
+  component: function (resolve) {
+    require(['./views/uploadImg.vue'], resolve)
+  }
 }
 ]
 const router = new VueRouter({
