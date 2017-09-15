@@ -14,6 +14,7 @@
 <p>3、使用v-charts图表</p>
 <p>4、使用vue-picture-input图片预览</p>
 <h4>新增<a href="https://github.com/alessiomaffeis/vue-picture-input">vue-picture-input</a>(更新于2017-09-04)</h4>
+<h4>新增城市列表2，来源于mint-ui</a>(更新于2017-09-15)</h4>
 
 <h3 class="myH3">关于本项目</h3>
 <p>npm install报错是pinyin引起的(但不影响正常使用)，只想使用其他demo的，可以不安装pinyin</p>
