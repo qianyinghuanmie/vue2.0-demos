@@ -27,7 +27,7 @@ Vue.use(VueRouter)
 Vue.use(VueResource)
 Vue.use(MintUI)
 Vue.prototype.glob = _glob
-// 创建地图
+// 创建高德地图
 let createMap = () => {
   const promise = new Promise(function (resolve, reject) {
     let script = document.createElement('script')
@@ -43,12 +43,14 @@ let createMap = () => {
   return promise
 }
 createMap().then(function () {
-  console.log('读取地图成功')
+  console.log('读取高德地图成功')
   // 加載當前的ip定位
 }).catch(function (error) {
   // 处理 getJSON 和 前一个回调函数运行时发生的错误
   console.log('发生错误！', error)
 })
+// ………………………………………………………………
+// 创建百度地图
 const routes = [{
   path: '/',
   component: function (resolve) {
@@ -63,6 +65,17 @@ const routes = [{
   path: '/city',
   component: function (resolve) {
     require(['./views/city.vue'], resolve)
+  }
+}, {
+  path: '/cityMint',
+  component: function (resolve) {
+    require(['./views/cityMint.vue'], resolve)
+  }
+}, {
+  path: '/mapBai',
+  component: function (resolve) {
+    require('./assets/scss/mapBai.scss')
+    require(['./views/mapBai.vue'], resolve)
   }
 }, {
   path: '/map',

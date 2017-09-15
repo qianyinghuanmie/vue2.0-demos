@@ -73,6 +73,7 @@ module.exports = {
     ]
   },
   externals: {
+    'BMap': 'BMap',
     'AMap': 'AMap'
   }
 }

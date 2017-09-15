@@ -6,7 +6,7 @@
 <p>使用vue-router路由，<a href="https://github.com/vuejs/vue-cli">关于vue-router</a></p>
 <p>使用vuex处理业务 <a href="https://github.com/vuejs/vuex">关于vuex</a></p>
 <p>使用vue- resource <a href="https://github.com/pagekit/vue-resource">关于vue- resource</a></p>
-<p>使用sass <a href="https://github.com/sass/sass">关于sass</p>
+<p>使用sass <a href="https://github.com/sass/sass">关于sass</a></p>
 <p>基于mint-ui，<a href="https://github.com/ElemeFE/mint-ui">关于mint-ui</a></p>
 <h3 class="myH3">当前涉及的demo</h3>
 <p>1、选择城市，字母排序</p>

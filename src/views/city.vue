@@ -66,6 +66,7 @@
       }
     },
     mounted: function () {
+      window.scrollTo(0, 500)
     },
     methods: {
       buildLetter: function () {  // 构建字母项

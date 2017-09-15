@@ -13,8 +13,6 @@
       <button v-for="(button, index) in buttons" :key="button.id" @click="clickItem(index ,buttons)"
               v-bind:class="[footer_button, {active: button.isActive}]">{{button.title}}
 
-
-
       </button>
     </div>
     <div id="panel"></div>

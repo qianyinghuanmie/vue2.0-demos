@@ -5,24 +5,25 @@
 </template>
 
 <script>
-export default {
-  name: 'app'
-}
 </script>
 
 <style lang="scss">
-  html{
+  html {
     height: 100%;
     font-size: 50px;
   }
-  *{
+
+  * {
     margin: 0;
     padding: 0;
   }
-  body, #app{
+
+  body, #app {
     min-height: 100%;
   }
-  body{
+
+  body {
     font-size: 0.3rem;
   }
+
 </style>
