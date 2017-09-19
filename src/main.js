@@ -21,11 +21,13 @@ import 'mint-ui/lib/style.css'
 
 import VueRouter from 'vue-router'
 import VueResource from 'vue-resource'
+import VueTouch from 'vue-touch'
 import _glob from './components/methodCommon.vue'
 Vue.config.productionTip = false
 Vue.use(VueRouter)
 Vue.use(VueResource)
 Vue.use(MintUI)
+Vue.use(VueTouch, {name: 'v-touch'})
 Vue.prototype.glob = _glob
 // 创建高德地图
 let createMap = () => {
@@ -61,11 +63,11 @@ const routes = [{
   component: function (resolve) {
     require(['./views/index.vue'], resolve)
   }
-}, {
-  path: '/city',
-  component: function (resolve) {
-    require(['./views/city.vue'], resolve)
-  }
+// }, {
+//   path: '/city',
+//   component: function (resolve) {
+//     require(['./views/city.vue'], resolve)
+//   }
 }, {
   path: '/cityMint',
   component: function (resolve) {
@@ -91,6 +93,11 @@ const routes = [{
   path: '/uploadImg',
   component: function (resolve) {
     require(['./views/uploadImg.vue'], resolve)
+  }
+}, {
+  path: '/touch',
+  component: function (resolve) {
+    require(['./views/touch.vue'], resolve)
   }
 }
 ]

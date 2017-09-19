@@ -14,14 +14,15 @@
     "lint": "eslint --ext .js,.vue src test/unit/specs test/e2e/specs"
   },
   "dependencies": {
+    "fine-uploader": "^5.15.0",
     "mint-ui": "^2.2.9",
     "node-sass": "^4.5.3",
-    "pinyin": "^2.8.3",
     "v-charts": "^1.7.12",
     "vue": "^2.3.3",
     "vue-picture-input": "^1.13.2",
     "vue-resource": "^1.3.4",
-    "vue-router": "^2.6.0"
+    "vue-router": "^2.6.0",
+    "vue-touch": "^2.0.0-beta.4"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.2",

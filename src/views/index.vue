@@ -1,6 +1,7 @@
 <template>
   <div id="index">
     <!--头部-->
+    <div id="uploader"></div>
     <mt-header title="首页">
       <router-link to="/" slot="left">
         <mt-button icon="back">返回</mt-button>
@@ -17,17 +18,17 @@
 
         <mt-tab-container class="page-tabbar-container" v-model="selected">
           <mt-tab-container-item id="目录">
-            <mt-cell v-for="catalog in catalogs" :title="catalog.text"  :href="catalog.url"/>
+            <mt-cell v-for="catalog in catalogs" :key="catalog.key" :title="catalog.text"  :href="catalog.url"/>
           </mt-tab-container-item>
           <mt-tab-container-item id="教程">
-            <mt-cell v-for="n in 5" :title="'教程 ' + n" />
+            <mt-cell v-for="n in 5" :key="n.key" :title="'教程 ' + n" />
           </mt-tab-container-item>
           <mt-tab-container-item id="待定">
-            <mt-cell v-for="n in 7" :title="'待定 ' + n" />
+            <mt-cell v-for="n in 7" :key="n.key" :title="'待定 ' + n" />
           </mt-tab-container-item>
           <mt-tab-container-item id="未知">
             <div class="page-part">
-              <mt-cell v-for="n in 12" :title="'未知 ' + n" />
+              <mt-cell v-for="n in 12" :key="n.key" :title="'未知 ' + n" />
             </div>
             <router-link to="/">
               <mt-button type="danger" size="large">退出</mt-button>
@@ -57,13 +58,12 @@
     </div>
   </div>
 </template>
-
 <script>
   const catalog = [
-    {
-      url: '#/city',
-      text: '跳转到城市列表'
-    },
+    // {
+    //   url: '#/city',
+    //   text: '跳转到城市列表'
+    // },
     {
       url: '#/cityMint',
       text: '跳转到城市列表2'
@@ -79,6 +79,10 @@
     {
       url: '#/uploadImg',
       text: '图片上传示例'
+    },
+    {
+      url: '#/touch',
+      text: '仿qq聊天列表'
     }
   ]
   export default {
@@ -100,5 +104,8 @@
     overflow: auto;
     height: 100%;
     padding-bottom: 100px;
+  }
+  .mint-cell{
+    border-bottom: 1px solid #ccc;
   }
 </style>
