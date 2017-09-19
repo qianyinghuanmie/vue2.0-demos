@@ -2,7 +2,9 @@
 <h2>说明</h2>
 <h3 class="myH3">项目改版(更新于2017-9-19)</h3>
 
+
 ![image](https://qianyinghuanmie.github.io/static/img/help.gif)
+
 
 <h3 class="myH3">项目构建</h3>
 <p>使用vue-cli起步 ，<a href="https://github.com/vuejs/vue-cli">关于vue-cli</a></p>
