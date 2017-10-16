@@ -3,7 +3,7 @@
 <h3 class="myH3">项目更新(更新于2017-10-16)</h3>
 
 
-![image](http://www.yuohei.com:8686/testApi/help.gif)
+![image](https://qianyinghuanmie.github.io/static/img/help.gif)
 
 
 <h3 class="myH3">项目构建</h3>
