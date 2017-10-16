@@ -8,11 +8,11 @@
 </script>
 
 <style lang="scss">
+  @import "./assets/scss/font.css";
   html {
     height: 100%;
     font-size: 50px;
   }
-
   * {
     margin: 0;
     padding: 0;

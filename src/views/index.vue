@@ -39,19 +39,19 @@
 
       <mt-tabbar v-model="selected" fixed>
         <mt-tab-item id="目录">
-          <img slot="icon">
+          <i class="iconfont">&#xe6c2;</i>
           目录
         </mt-tab-item>
         <mt-tab-item id="教程">
-          <img slot="icon" >
+          <i class="iconfont">&#xe606;</i>
           教程
         </mt-tab-item>
         <mt-tab-item id="待定">
-          <img slot="icon">
+          <i class="iconfont">&#xe618;</i>
           待定
         </mt-tab-item>
         <mt-tab-item id="未知">
-          <img slot="icon" >
+          <i class="iconfont">&#xe677;</i>
           未知
         </mt-tab-item>
       </mt-tabbar>
@@ -95,7 +95,7 @@
   }
 </script>
 
-<style>
+<style  lang="scss">
   .page-tabbar {
     overflow: hidden;
     height: 100vh;
@@ -107,5 +107,9 @@
   }
   .mint-cell{
     border-bottom: 1px solid #ccc;
+  }
+  .mint-tab-item{
+      color:#ccc;
+      padding: 10px 0;
   }
 </style>

@@ -1,6 +1,6 @@
 
 <h2>说明</h2>
-<h3 class="myH3">项目改版(更新于2017-9-19)</h3>
+<h3 class="myH3">项目更新(更新于2017-10-16)</h3>
 
 
 ![image](http://www.yuohei.com:8686/testApi/help.gif)
@@ -14,6 +14,7 @@
 <p>使用sass <a href="https://github.com/sass/sass">关于sass</a></p>
 <p>基于mint-ui，<a href="https://github.com/ElemeFE/mint-ui">关于mint-ui</a></p>
 <p>引入了vue-touch（此手势插件是vue-touch的另一个分支，支持vue2.0的），<a href="https://github.com/vuejs/vue-touch/tree/next">关于vue-touch</a></p>
+<p>引入阿里字体，<a href="http://www.iconfont.cn/home/index">关于阿里字体</a></p>
 <h3 class="myH3">当前涉及的demo</h3>
 <del>1、选择城市，字母排序（已移除，源码还在，有兴趣的可以看看）</del>  
 <br>
@@ -22,6 +23,7 @@
 <p>4、使用vue-picture-input图片预览</p>
 <p>5、城市列表，来源于mint-ui（替换原有的城市）</p>
 <p>6、新增仿qq列表，引入了vur-touch</p>
+<p>7、引入了阿里字体</p>
 
 
 <h3 class="myH3">关于本项目</h3>
