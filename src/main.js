@@ -63,11 +63,11 @@ const routes = [{
   component: function (resolve) {
     require(['./views/index.vue'], resolve)
   }
-// }, {
-//   path: '/city',
-//   component: function (resolve) {
-//     require(['./views/city.vue'], resolve)
-//   }
+}, {
+  path: '/city',
+  component: function (resolve) {
+    require(['./views/city.vue'], resolve)
+  }
 }, {
   path: '/cityMint',
   component: function (resolve) {

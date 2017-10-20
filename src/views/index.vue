@@ -21,7 +21,7 @@
             <mt-cell v-for="catalog in catalogs" :key="catalog.key" :title="catalog.text"  :href="catalog.url"/>
           </mt-tab-container-item>
           <mt-tab-container-item id="教程">
-            <mt-cell v-for="n in 5" :key="n.key" :title="'教程 ' + n" />
+            <mt-cell v-for="(course,index) in courses" :key="course.key" :title="course.text"  :href="course.url" target="_blank"/>
           </mt-tab-container-item>
           <mt-tab-container-item id="待定">
             <mt-cell v-for="n in 7" :key="n.key" :title="'待定 ' + n" />
@@ -60,36 +60,51 @@
 </template>
 <script>
   const catalog = [
-    // {
-    //   url: '#/city',
-    //   text: '跳转到城市列表'
-    // },
+    {
+      url: '#/city',
+      text: '0、跳转到城市列表1'
+    },
     {
       url: '#/cityMint',
-      text: '跳转到城市列表2'
+      text: '1、跳转到城市列表2'
     },
     {
       url: '#/map',
-      text: '跳转到高德地图'
+      text: '2、跳转到高德地图'
     },
     {
       url: '#/vcharts',
-      text: '跳转到vcharts图表示例'
+      text: '3、跳转到vcharts图表示例'
     },
     {
       url: '#/uploadImg',
-      text: '图片上传示例'
+      text: '4、图片上传示例'
     },
     {
       url: '#/touch',
-      text: '仿qq聊天列表'
+      text: '5、仿qq聊天列表'
+    }
+  ]
+  const course = [
+    {
+      url: 'http://www.cnblogs.com/star-wind/p/6913002.html',
+      text: '0、动手做个选择城市'
+    },
+    {
+      url: 'http://www.cnblogs.com/star-wind/p/6774204.html',
+      text: '1、调用高德地图'
+    },
+    {
+      url: 'http://www.cnblogs.com/star-wind/p/7018817.html',
+      text: '2、高德地图之玩转周边'
     }
   ]
   export default {
     data () {
       return {
         selected: '目录',
-        catalogs: catalog
+        catalogs: catalog,
+        courses: course
       }
     }
   }

@@ -9,6 +9,7 @@ function resolve(dir) {
 
 module.exports = {
   entry: {
+    "vendor2": ["crypto-js", "fastclick"],
     app: './src/main.js'
   },
   output: {
@@ -75,5 +76,11 @@ module.exports = {
   externals: {
     'BMap': 'BMap',
     'AMap': 'AMap'
-  }
+  },
+  plugins: [
+    new webpack.optimize.CommonsChunkPlugin({
+        names: ["vendor2","vendor1"],
+        minChunks: Infinity
+    })
+]
 }

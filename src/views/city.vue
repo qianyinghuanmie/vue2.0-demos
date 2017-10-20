@@ -29,7 +29,7 @@
 
 
 <script>
-  import pinyin from 'pinyin'
+  import pinyin from '../../static/lib/web-pinyin/bundle.js'
   var cityLists = []
   var cityNames = []
   var cityNamesFilter = []
@@ -79,7 +79,7 @@
         }
       },
       getFirstLetter: function (str) { //  得到城市第一个字的首字母
-        return pinyin(str)[0][0].charAt(0).toUpperCase()
+        return pinyin.pinyin(str)[0][0].charAt(0).toUpperCase()
       },
       buildItem: function (cityNamesFilter) {  // 构建城市
         this.buildLetter()
