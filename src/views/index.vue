@@ -78,11 +78,15 @@
     },
     {
       url: '#/uploadImg',
-      text: '4、图片上传示例'
+      text: '4、图片预览'
+    },
+    {
+      url: '#/upload',
+      text: '5、图片上传'
     },
     {
       url: '#/touch',
-      text: '5、仿qq聊天列表'
+      text: '6、仿qq聊天列表'
     }
   ]
   const course = [

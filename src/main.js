@@ -16,6 +16,8 @@
 import Vue from 'vue'
 import App from './App'
 import MintUI from 'mint-ui'
+import ElementUI from 'element-ui'
+import 'element-ui/lib/theme-default/index.css'
 
 import 'mint-ui/lib/style.css'
 
@@ -27,6 +29,7 @@ Vue.config.productionTip = false
 Vue.use(VueRouter)
 Vue.use(VueResource)
 Vue.use(MintUI)
+Vue.use(ElementUI)
 Vue.use(VueTouch, {name: 'v-touch'})
 Vue.prototype.glob = _glob
 // 创建高德地图
@@ -93,6 +96,11 @@ const routes = [{
   path: '/uploadImg',
   component: function (resolve) {
     require(['./views/uploadImg.vue'], resolve)
+  }
+}, {
+  path: '/upload',
+  component: function (resolve) {
+    require(['./views/upload.vue'], resolve)
   }
 }, {
   path: '/touch',

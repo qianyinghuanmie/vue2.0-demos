@@ -12,6 +12,7 @@
 <p>使用vuex处理业务 <a href="https://github.com/vuejs/vuex">关于vuex</a></p>
 <p>使用vue- resource <a href="https://github.com/pagekit/vue-resource">关于vue- resource</a></p>
 <p>使用sass <a href="https://github.com/sass/sass">关于sass</a></p>
+<p>基于element-ui，<a href="http://element.eleme.io/#/zh-CN/component/quickstart">关于element-ui</a></p>
 <p>基于mint-ui，<a href="https://github.com/ElemeFE/mint-ui">关于mint-ui</a></p>
 <p>引入了vue-touch（此手势插件是vue-touch的另一个分支，支持vue2.0的），<a href="https://github.com/vuejs/vue-touch/tree/next">关于vue-touch</a></p>
 <p>引入阿里字体，<a href="http://www.iconfont.cn/home/index">关于阿里字体</a></p>
@@ -20,9 +21,10 @@
 <p>2、调用高德地图</p>
 <p>3、使用v-charts图表</p>
 <p>4、使用vue-picture-input图片预览</p>
-<p>5、城市列表，来源于mint-ui（替换原有的城市）</p>
-<p>6、新增仿qq列表，引入了vur-touch</p>
-<p>7、引入了阿里字体</p>
+<p>5、使用element-ui图片上传组件</p>
+<p>6、城市列表，来源于mint-ui（替换原有的城市）</p>
+<p>7、新增仿qq列表，引入了vur-touch</p>
+<p>8、引入了阿里字体</p>
 <h3 class="myH3">当前涉及的教程</h3>
 <p>1、动手做个选择城市</p>  
 <p>1、调用高德地图</p>
