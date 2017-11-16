@@ -105,6 +105,10 @@
     {
       url: 'http://www.cnblogs.com/star-wind/p/7018817.html',
       text: '2、高德地图之玩转周边'
+    },
+    {
+      url: 'https://github.com/chenyk2016/LCalendar-extension',
+      text: '3、时间选择器'
     }
   ]
   export default {

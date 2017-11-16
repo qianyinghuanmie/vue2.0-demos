@@ -1,5 +1,5 @@
 // Lcalendar.js
-// 2017-11-08 chneyk 改造 https://github.com/chenyk2016
+// 2017-11-08 chneyk 改造 https://github.com/chenyk2016/LCalendar-extension
 window.LCalendar = (function() {
 	var MobileCalendar = function() {
 		this.gearDate;
