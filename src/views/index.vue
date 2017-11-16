@@ -108,7 +108,7 @@
     },
     {
       url: 'https://github.com/chenyk2016/LCalendar-extension',
-      text: '3、时间选择器'
+      text: '3、LCalendar时间选择器'
     }
   ]
   export default {
