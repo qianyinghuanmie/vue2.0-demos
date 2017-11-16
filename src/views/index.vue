@@ -87,6 +87,10 @@
     {
       url: '#/touch',
       text: '6、仿qq聊天列表'
+    },
+    {
+      url: '#/lcalendar',
+      text: '7、时间选择器'
     }
   ]
   const course = [
