@@ -87,6 +87,10 @@
     {
       url: '#/touch',
       text: '6、仿qq聊天列表'
+    },
+    {
+      url: '#/lcalendar',
+      text: '7、时间选择器'
     }
   ]
   const course = [
@@ -101,6 +105,10 @@
     {
       url: 'http://www.cnblogs.com/star-wind/p/7018817.html',
       text: '2、高德地图之玩转周边'
+    },
+    {
+      url: 'https://github.com/chenyk2016/LCalendar-extension',
+      text: '3、LCalendar时间选择器'
     }
   ]
   export default {
