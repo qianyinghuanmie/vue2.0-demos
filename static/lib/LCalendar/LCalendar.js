@@ -74,7 +74,7 @@ window.LCalendar = (function() {
 				_self.gearDate = document.createElement("div");
 				_self.gearDate.className = "gearDate "+autoModel;
 	 			_self.gearDate.innerHTML = '<div class="date_ctrl slideInUp">' +
-					'<div class="date_btn_box '+autoModel+'">' +
+					'<div class="date_btn_box">' +
 					'<div class="date_btn lcalendar_cancel">取消</div>' +
 					'<div class="date_btn lcalendar_finish">确定</div>' +
 					'</div>' +
@@ -150,7 +150,7 @@ window.LCalendar = (function() {
 				_self.gearDate = document.createElement("div");
 				_self.gearDate.className = "gearDate "+autoModel;
 	 			_self.gearDate.innerHTML = '<div class="date_ctrl slideInUp">' +
-					'<div class="date_btn_box '+autoModel+'">' +
+					'<div class="date_btn_box ">' +
 					'<div class="date_btn lcalendar_cancel">取消</div>' +
 					'<div class="date_btn lcalendar_finish">确定</div>' +
 					'</div>' +
@@ -209,7 +209,7 @@ window.LCalendar = (function() {
 				_self.gearDate = document.createElement("div");
 				_self.gearDate.className = "gearDatetime "+autoModel;
 				_self.gearDate.innerHTML = '<div class="date_ctrl slideInUp">' +
-					'<div class="date_btn_box '+autoModel+'">' +
+					'<div class="date_btn_box">' +
 					'<div class="date_btn lcalendar_cancel">取消</div>' +
 					'<div class="date_btn lcalendar_finish">确定</div>' +
 					'</div>' +
@@ -308,7 +308,7 @@ window.LCalendar = (function() {
 				_self.gearDate = document.createElement("div");
 				_self.gearDate.className = "gearDate "+autoModel;
 	 			_self.gearDate.innerHTML = '<div class="date_ctrl slideInUp">' +
-					'<div class="date_btn_box'+autoModel+'">' +
+					'<div class="date_btn_box">' +
 					'<div class="date_btn lcalendar_cancel">取消</div>' +
 					'<div class="date_btn lcalendar_finish">确定</div>' +
 					'</div>' +
