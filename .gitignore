@@ -13,3 +13,4 @@ selenium-debug.log
 *.ntvs*
 *.njsproj
 *.sln
+*.ffs_db

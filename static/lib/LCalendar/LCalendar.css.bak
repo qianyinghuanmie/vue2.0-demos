@@ -5,10 +5,11 @@
     display: block;
     position: fixed;
     width: 100%;
-    height: auto;
-    z-index: 9;
+    bottom: 0;
+    z-index: 100;
     overflow: hidden;
     animation-fill-mode: both;
+    background-color: rgba(0, 0, 0, 0.4)
 }
 .gearDate.autoModel{
     position: relative; 
@@ -22,12 +23,10 @@
     background-color: #fff;
     color: #000;
     margin: 0;
-    height: auto;
     width:100%;
     position: absolute;
+    bottom: 0;
     left: 0;
-    top: 0;
-    z-index: 9;
     overflow: hidden;
     transform: translate3d(0, 0, 0)
 }
@@ -69,7 +68,6 @@
     position: relative;
     overflow: hidden;
     flex: 4;
-
 }
 
 .ym_roll>div .gear,
@@ -79,17 +77,16 @@
     width: 100%;
     float: left;
     position: absolute;
-    z-index: 9;
     margin-top: -4em;
-    
+    z-index: 1000;
 }
 
 .date_roll_mask {
     -webkit-mask: -webkit-gradient(linear, 0% 40%, 0% 0%, from(#debb47), to(rgba(36, 142, 36, 0)));
     -webkit-mask: -webkit-linear-gradient(bottom, #debb47 50%, rgba(36, 142, 36, 0));
     padding: 0;
-    /* transform: scale(0.8, 0.8);
-    transform-origin: center top ; */
+    /* transform: scale(0.8, 0.7); */
+    transform-origin: top;
 }
 
 .date_roll>div:nth-child(2) {
@@ -116,7 +113,7 @@
     height: 2em;
     margin: 0;
     box-sizing: border-box;
-    z-index: 0;
+    z-index: -1;
     border-top: 1px solid #abaeb5;
     border-bottom: 1px solid #abaeb5
 }
@@ -162,7 +159,7 @@
 
 .date_btn {
     color: #0575f2;
-    font-size: 1.6em;
+    font-size: 1.4em;
     line-height: 1em;
     text-align: center;
     padding: .8em 1em
@@ -176,16 +173,18 @@
     width: 100%;
     display: block;
     background-color: #96979b;
-    z-index: 8;
     transform: scaleY(0.33)
 }
 
 .date_btn_box {
-    display: none;
+    display: flex;
     justify-content: space-between;
     align-items: stretch;
     background-color: #f1f2f4;
     position: relative
+}
+.autoModel .date_btn_box{
+    display: none;
 }
 
 .date_btn_box:before {
