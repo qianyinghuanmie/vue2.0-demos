@@ -65,8 +65,8 @@
       text: '0、跳转到城市列表1'
     },
     {
-      url: '#/cityMint',
-      text: '1、跳转到城市列表2'
+      url: '#/mintUiComponent',
+      text: '1、mintUi好用的组件集合'
     },
     {
       url: '#/map',
@@ -135,6 +135,13 @@
   .mint-cell{
     border-bottom: 1px solid #ccc;
   }
+  #index{
+    .mint-cell:nth-child(2){
+        background-color: rgba(8, 42, 182, 0.5);
+        color:#fff;
+    }  
+  }
+
   .mint-tab-item{
       color:#ccc;
       padding: 10px 0;

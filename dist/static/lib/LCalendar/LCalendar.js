@@ -107,9 +107,9 @@ window.LCalendar = (function() {
 				lcalendar_cancel.addEventListener('touchstart', closeMobileCalendar);
 				var lcalendar_finish = _self.gearDate.querySelector(".lcalendar_finish");
 				lcalendar_finish.addEventListener('touchstart', finishMobileDate);
-				var date_yy = _self.gearDate.querySelector(".date_yy");
-				var date_mm = _self.gearDate.querySelector(".date_mm");
-				var date_dd = _self.gearDate.querySelector(".date_dd");
+				var date_yy = _self.gearDate.querySelector(".date_yy").parentElement;
+				var date_mm = _self.gearDate.querySelector(".date_mm").parentElement;
+				var date_dd = _self.gearDate.querySelector(".date_dd").parentElement;
 				date_yy.addEventListener('touchstart', gearTouchStart);
 				date_mm.addEventListener('touchstart', gearTouchStart);
 				date_dd.addEventListener('touchstart', gearTouchStart);
@@ -177,14 +177,16 @@ window.LCalendar = (function() {
 				lcalendar_cancel.addEventListener('touchstart', closeMobileCalendar);
 				var lcalendar_finish = _self.gearDate.querySelector(".lcalendar_finish");
 				lcalendar_finish.addEventListener('touchstart', finishMobileYM);
-				var date_yy = _self.gearDate.querySelector(".date_yy");
-				var date_mm = _self.gearDate.querySelector(".date_mm");
+				var date_yy = _self.gearDate.querySelector(".date_yy").parentElement;
+				var date_mm = _self.gearDate.querySelector(".date_mm").parentElement;
+				
 				date_yy.addEventListener('touchstart', gearTouchStart);
 				date_mm.addEventListener('touchstart', gearTouchStart);
 				date_yy.addEventListener('touchmove', gearTouchMove);
 				date_mm.addEventListener('touchmove', gearTouchMove);
 				date_yy.addEventListener('touchend', gearTouchEnd);
 				date_mm.addEventListener('touchend', gearTouchEnd);
+				
 			}
 			//初始化年月插件默认值
 			function ymCtrlInit() {
@@ -254,11 +256,11 @@ window.LCalendar = (function() {
 				lcalendar_cancel.addEventListener('touchstart', closeMobileCalendar);
 				var lcalendar_finish = _self.gearDate.querySelector(".lcalendar_finish");
 				lcalendar_finish.addEventListener('touchstart', finishMobileDateTime);
-				var date_yy = _self.gearDate.querySelector(".date_yy");
-				var date_mm = _self.gearDate.querySelector(".date_mm");
-				var date_dd = _self.gearDate.querySelector(".date_dd");
-				var time_hh = _self.gearDate.querySelector(".time_hh");
-				var time_mm = _self.gearDate.querySelector(".time_mm");
+				var date_yy = _self.gearDate.querySelector(".date_yy").parentElement;
+				var date_mm = _self.gearDate.querySelector(".date_mm").parentElement;
+				var date_dd = _self.gearDate.querySelector(".date_dd").parentElement;
+				var time_hh = _self.gearDate.querySelector(".time_hh").parentElement;
+				var time_mm = _self.gearDate.querySelector(".time_mm").parentElement;
 				date_yy.addEventListener('touchstart', gearTouchStart);
 				date_mm.addEventListener('touchstart', gearTouchStart);
 				date_dd.addEventListener('touchstart', gearTouchStart);
@@ -335,8 +337,8 @@ window.LCalendar = (function() {
 				lcalendar_cancel.addEventListener('touchstart', closeMobileCalendar);
 				var lcalendar_finish = _self.gearDate.querySelector(".lcalendar_finish");
 				lcalendar_finish.addEventListener('touchstart', finishMobileTime);
-				var time_hh = _self.gearDate.querySelector(".time_hh");
-				var time_mm = _self.gearDate.querySelector(".time_mm");
+				var time_hh = _self.gearDate.querySelector(".time_hh").parentElement;
+				var time_mm = _self.gearDate.querySelector(".time_mm").parentElement;
 				time_hh.addEventListener('touchstart', gearTouchStart);
 				time_mm.addEventListener('touchstart', gearTouchStart);
 				time_hh.addEventListener('touchmove', gearTouchMove);
@@ -697,6 +699,7 @@ window.LCalendar = (function() {
 			}
 			//控制插件滚动后停留的值
 			function setGear(target, val) {
+				if (val !== val) { return }
 				val = Math.round(val);
 				target.setAttribute("val", val);
 				if (/date/.test(target.dataset.datetype)) {
@@ -830,7 +833,7 @@ window.LCalendar = (function() {
 			}
 
 			// 局部重新刷新
-			function refreshTo(params){
+			/*function refreshTo(params){
 				clearPicker();
 				
 				if ( typeof params === "string" ) {
@@ -854,10 +857,10 @@ window.LCalendar = (function() {
 				}
 				
 				runPicker();
-			}
+			}*/
 
 			// 转为外部
-			_self.refreshTo = refreshTo;
+			// _self.refreshTo = refreshTo;
 		},
 		// 销毁实例
 		destory: function () {

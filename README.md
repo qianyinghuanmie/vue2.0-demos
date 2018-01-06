@@ -9,10 +9,10 @@ author or contributors  will find time in their own ability to go To achieve，
 If you want to import new package，please note。
 ```
 
-<h3 class="myH3">(Updated on 2017-11-25)</h3>
+<h3 class="myH3">(Updated on 2018-1-6)</h3>
 <h5><a href="./Log">Update log</a></h5>
 
-![image](https://qianyinghuanmie.github.io/static/img/help.gif)
+![image](https://qianyinghuanmie.github.io/vue2.0-demos/dist/static/help.gif)
 
 
 <h3 class="myH3">Construction</h3>
@@ -35,6 +35,7 @@ If you want to import new package，please note。
 <p>7、the introduction of vur-touch</p>
 <p>8、Ali font </p>
 <p>9、add select time components</p>
+<p>10、add Provincial linkage components</p>
 <h3 class="myH3">tutorials list</h3>
 <p>1、 to be a city of choice</p>  
 <p>2、use high Germany map</p>

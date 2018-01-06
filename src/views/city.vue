@@ -8,7 +8,7 @@
         <mt-button icon="more" slot="right"></mt-button>
       </mt-header>
       <!--内容-->
-      <div class="search-city"><input type="text" placeholder="请输入要搜索的城市" v-model="citySearch" :value="citySearch"></div>
+      <div class="search-city"><input type="text" placeholder="请输入要搜索的城市" v-model="citySearch"></div>
       <div>
         <div id="showCityContent"></div>
         <div v-for="item in showCity" class="letter-item">
