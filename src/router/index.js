@@ -64,6 +64,11 @@ export default new VueRouter({
         require(['../views/MiniComponents/CityPicker.vue'], resolve)
       }
     }, {
+      path: '/mintUiSwitch',
+      component: function (resolve) {
+        require(['../views/MiniComponents/switch.vue'], resolve)
+      }
+    }, {
       path: '/mintUiComponent',
       component: function (resolve) {
         require(['../views/mintUiComponent.vue'], resolve)

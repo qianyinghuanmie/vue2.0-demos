@@ -22,6 +22,10 @@ const catalog = [
   {
     url: '#/mintUiCityPicker',
     text: '2、省市联动与日期选择'
+  },
+  {
+    url: '#/mintUiSwitch',
+    text: '3、开关'
   }
 ]
 export default {
