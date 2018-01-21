@@ -1,12 +1,46 @@
 <template>
-<div class="">
+<div class="pickers">
   <mt-header title="二级省市联动">
     <router-link to="/mintUiComponent" slot="left">
       <mt-button icon="back">返回</mt-button>
     </router-link>
     <mt-button icon="more" slot="right"></mt-button>
   </mt-header>
-    <mt-picker :slots='addressSlots' @change='onAddressChange'></mt-picker>
+<div class="popup_content">
+    <mt-button  @click.native="handleClick('citypopupVisible')">请选择城市</mt-button>
+    <mt-cell title="选中的城市" :value="cityvalue"></mt-cell>
+
+    <mt-button  @click.native="openPicker">请选择日期</mt-button>
+    <mt-cell title="选中的日期" :value="datevalue"></mt-cell>
+</div>
+  <mt-popup
+  v-model="citypopupVisible"
+  position="bottom" class="common_popup">
+    <div class="common_popup_header">
+      <div class="" @click="hidePopup('citypopupVisible')">
+        取消
+      </div>
+      <div class="">
+        选择城市
+      </div>
+      <div class="" @click="suerResult()">
+        确定
+      </div>
+    </div>
+    <mt-picker :slots='addressSlots' @change='onAddressChange' ></mt-picker>
+</mt-popup>
+
+<mt-datetime-picker
+  v-model="currentValue"
+  ref="picker"
+  type="date"
+  year-format="{value} 年"
+month-format="{value} 月"
+date-format="{value} 日"
+:startDate = "startDate"
+:endDate = "endDate"
+@confirm="handleConfirm">
+</mt-datetime-picker>
 </div>
 
 
@@ -15,6 +49,7 @@
 </template>
 
 <script>
+
 var i = {
   '北京': ['北京'],
   '广东': ['广州', '深圳', '珠海', '汕头', '韶关', '佛山', '江门', '湛江', '茂名', '肇庆', '惠州', '梅州', '汕尾', '河源', '阳江', '清远', '东莞', '中山', '潮州'],
@@ -53,14 +88,39 @@ var i = {
 }
 export default {
   methods: {
+    openPicker: function () {
+      this.$refs.picker.open()
+      this.currentValue = new Date((new Date()).getFullYear(), 0, 1)       // 设置初始值
+    },
+    hidePopup: function (citypopupVisible) {
+      this[citypopupVisible] = false
+    },
     onAddressChange: function (picker, value) {
       picker.setSlotValues(1, i[value[0]])
       this.addressProvince = value[0]
       this.addressCity = value[1]
+      this.cityModel = this.addressProvince + this.addressCity
+    },
+    suerResult: function () {
+      this.citypopupVisible = false
+      this.cityvalue = this.cityModel
+    },
+    handleConfirm: function (value) {
+      this.datevalue = value.getFullYear() + '-' + (value.getMonth() + 1) + '-' + value.getDate()
+    },
+    handleClick: function (citypopupVisible) {
+      this[citypopupVisible] = true
     }
   },
   data () {
     return {
+      citypopupVisible: false,
+      cityvalue: '无选中',
+      cityModel: '无选中',
+      datevalue: '无选中',
+      startDate: new Date((new Date()).getFullYear() - 90, 0, 1),
+      endDate: new Date((new Date()).getFullYear() + 10, 0, 1),
+      currentValue: new Date(Date.parse(new Date()) + 1000 * 60 * 60 * 24 * 7),
       addressSlots: [{
         flex: 1,
         values: Object.keys(i),

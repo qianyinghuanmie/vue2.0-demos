@@ -60,6 +60,7 @@ export default new VueRouter({
     }, {
       path: '/mintUiCityPicker',
       component: function (resolve) {
+        require('../assets/scss/mintUiComponent.css')
         require(['../views/MiniComponents/CityPicker.vue'], resolve)
       }
     }, {

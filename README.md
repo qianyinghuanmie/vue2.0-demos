@@ -9,7 +9,7 @@ author or contributors  will find time in their own ability to go To achieve，
 If you want to import new package，please note。
 ```
 
-<h3 class="myH3">(Updated on 2018-1-6)</h3>
+<h3 class="myH3">(Updated on 2018-1-21)</h3>
 <h5><a href="./Log">Update log</a></h5>
 
 ![image](https://qianyinghuanmie.github.io/vue2.0-demos/dist/static/help.gif)

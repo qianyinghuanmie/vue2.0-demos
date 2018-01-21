@@ -8,7 +8,7 @@
     </mt-header>
     <mt-tab-container>
       <mt-tab-container-item>
-        <mt-cell v-for="n in catalogs" :title="n.text" :href="n.url"/>
+        <mt-cell v-for="n in catalogs" :title="n.text" :href="n.url" :key="n.key"/>
       </mt-tab-container-item>
     </mt-tab-container>
   </div>
@@ -21,7 +21,7 @@ const catalog = [
   },
   {
     url: '#/mintUiCityPicker',
-    text: '2、二级省市联动'
+    text: '2、省市联动与日期选择'
   }
 ]
 export default {

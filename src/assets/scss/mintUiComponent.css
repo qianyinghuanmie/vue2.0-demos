@@ -1,0 +1,18 @@
+@charset "UTF-8";
+.popup_content{
+  padding:  0 1rem;
+}
+.mint-popup{
+   widthd:100%!important;
+ }
+.common_popup{
+  width: 100%;
+}
+.common_popup_header{
+  padding: 0 0.3rem;
+  display: flex;
+  justify-content: space-between;
+  line-height: 1rem;
+  height: 1rem;
+  border-bottom: 1px solid #ccc;
+}
