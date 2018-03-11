@@ -10,7 +10,7 @@
 <h3 class="myH3">(更新于 2018-3-11)</h3>
 <h5><a href="./Log">更新日志</a></h5>
 
-![image](https://github.com/qianyinghuanmie/vue2.0-demos/dist/static/help1.gif)
+![image](https://qianyinghuanmie.github.io/vue2.0-demos/dist/static/help1.gif)
 
 
 <h3 class="myH3">Construction</h3>
