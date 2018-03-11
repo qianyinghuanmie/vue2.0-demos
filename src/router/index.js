@@ -74,6 +74,11 @@ export default new VueRouter({
         require(['../views/mintUiComponent.vue'], resolve)
       }
     }, {
+      path: '/mintUiScroll',
+      component: function (resolve) {
+        require(['../views/MiniComponents/Scroller.vue'], resolve)
+      }
+    }, {
       path: '/touch',
       component: function (resolve) {
         require(['../views/touch.vue'], resolve)

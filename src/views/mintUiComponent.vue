@@ -26,6 +26,10 @@ const catalog = [
   {
     url: '#/mintUiSwitch',
     text: '3、开关'
+  },
+  {
+    url: '#/mintUiScroll',
+    text: '4、滚动加载'
   }
 ]
 export default {
