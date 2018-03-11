@@ -10,7 +10,7 @@
 <h3 class="myH3">(更新于 2018-3-11)</h3>
 <h5><a href="./Log">更新日志</a></h5>
 
-![image](https://qianyinghuanmie.github.io/vue2.0-demos/dist/static/help.gif)
+![image](https://qianyinghuanmie.github.io/vue2.0-demos/dist/static/help1.gif)
 
 
 <h3 class="myH3">Construction</h3>
@@ -24,7 +24,7 @@
 <p>使用 vue-touch（this gesture plug-in is another vue-touch branch and support vue2.0），<a href="https://github.com/vuejs/vue-touch/tree/next">关于 vue-touch</a></p>
 <p>使用 阿里字体 ，<a href="http://www.iconfont.cn/home/index">关于 Ali font</a></p>
 <h3 class="myH3">demos 列表</h3>
-<p>1、城市排序和检索/p>  
+<p>1、城市排序和检索</p>  
 <p>2、高德地图的使用</p>
 <p>3、v-charts的使用</p>
 <p>4、使用 vue-picture-input 预览图片</p>
