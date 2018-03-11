@@ -35,7 +35,7 @@
 <h3 class="myH3">教程</h3>
 <p>1、城市选择</p>  
 <p>2、高德地图的调用</p>
-<p>3、2、高德地图的周边使用</p>
+<p>3、高德地图的周边使用</p>
 
 可以参考[my blog](http://www.cnblogs.com/star-wind/)
 
