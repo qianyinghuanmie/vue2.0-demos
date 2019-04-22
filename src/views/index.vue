@@ -91,6 +91,10 @@
     {
       url: '#/lcalendar',
       text: '7、时间选择器'
+    },
+    {
+      url: '#/vuex',
+      text: '8、vuex-demo'
     }
   ]
   const course = [
@@ -139,7 +143,7 @@
     .mint-cell:nth-child(2){
         background-color: rgba(8, 42, 182, 0.5);
         color:#fff;
-    }  
+    }
   }
 
   .mint-tab-item{

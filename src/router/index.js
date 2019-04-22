@@ -84,6 +84,11 @@ export default new VueRouter({
         require(['../views/touch.vue'], resolve)
       }
     }, {
+      path: '/vuex',
+      component: function (resolve) {
+        require(['../views/vuex.vue'], resolve)
+      }
+    }, {
       path: '/lcalendar',
       components: {
         default: function (resolve) {
