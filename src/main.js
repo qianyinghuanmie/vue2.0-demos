@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+import store from './store'
 import MintUI from 'mint-ui'
 import ElementUI from 'element-ui'
 import 'element-ui/lib/theme-default/index.css'
@@ -42,5 +43,6 @@ createMap().then(function () {
 /* eslint-disable no-new */
 new Vue({
   router,
+  store,
   render: h => h(App)
 }).$mount('#app')
