@@ -7,7 +7,7 @@
   如果想要贡献---……………………欢迎。
 ```
 
-<h3 class="myH3">(更新于 2018-3-11)</h3>
+<h3 class="myH3">(更新于 2019-5-2)</h3>
 <h5><a href="./Log">更新日志</a></h5>
 
 ![image](https://qianyinghuanmie.github.io/vue2.0-demos/dist/static/help1.gif)
