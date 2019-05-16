@@ -14,19 +14,22 @@
 ### vue原理解析
   - [mvvm篇](https://github.com/qianyinghuanmie/interestingJs/tree/master/mvvm)
 ### vue与react对比
+
   参考[Vue与React比较](https://juejin.im/post/5b90be7e6fb9a05d0d284a49)
   - 生命周期的不同
   - 模板的不同  JSX vs Templates
-  -  状态管理 vs 对象属性
+  - 状态管理 vs 对象属性
 
     *React在state状态管理存储数据的，不能修改数据，修改数据在Setstate中setState是异步的，如果需要马上利用结果，需要在setState传入回调，具体可以看看React中setState几个现象---先知道再理解在Vue中，state对象并不是必须的，数据由data属性在Vue对象中进行管理。*`
 
 ### vue服务端渲染
+
   - [Vue.js 服务器端渲染指南](https://ssr.vuejs.org/zh#%E4%BB%80%E4%B9%88%E6%98%AF%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%AB%AF%E6%B8%B2%E6%9F%93-ssr-%EF%BC%9F)
   - [vue-hackernews-2.0](https://github.com/vuejs/vue-hackernews-2.0/)
 
 ### vue常用的一些方法
     - vue指令
+
     ```
       // 注册一个全局自定义指令 `v-focus`
       Vue.directive('focus', {
@@ -36,12 +39,13 @@
         el.focus()
       }
     })
+
     ```
 
 <h3 class="myH3">(更新于 2019-5-11)</h3>
 <h5><a href="./Log">更新日志</a></h5>
-![image](https://qianyinghuanmie.github.io/vue2.0-demos/dist/static/help1.gif)
 
+![image](https://qianyinghuanmie.github.io/vue2.0-demos/dist/static/help1.gif)
 
 <h3 class="myH3">Construction</h3>
 <p>使用vue-cli开始构建, ，<a href="https://github.com/vuejs/vue-cli">关于 vue-cli</a></p>
