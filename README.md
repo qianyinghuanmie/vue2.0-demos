@@ -28,6 +28,7 @@
   - [vue-hackernews-2.0](https://github.com/vuejs/vue-hackernews-2.0/)
 
 ### vue常用的一些方法
+    
     - vue指令
 
     ```
